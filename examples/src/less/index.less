@@ -1,0 +1,49 @@
+.select-button {
+    margin: 0.25rem;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    &-type {
+        &-primary {
+            background-color: gray
+        }
+        &-secondary {
+            background-color: lightblue
+        }
+    }
+    &-size {
+        &-small {
+            padding:0.25rem;
+        }
+        &-large {
+            padding: 0.5rem;
+        }
+    }
+    &-selected {
+        border: 2px solid black;
+    }
+}
+.container {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    background-color: lightcyan;
+}
+
+.header, .footer, .body {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 3px;
+    border: 1px solid lavenderblush;
+    background-color:cadetblue; 
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
